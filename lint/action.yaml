@@ -53,6 +53,4 @@ runs:
       shell: bash
       run: pip install -e .
     - uses: pre-commit/action@v3.0.0
-    - name: Install setuptools
-      shell: bash
-      run: pip install setuptools
+
